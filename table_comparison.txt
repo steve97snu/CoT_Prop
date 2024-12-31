@@ -1,0 +1,736 @@
+
+--- Table 1 ---
+Original Table:
+Year                   Competition                      Venue  Position         Event   Notes
+2001     World Youth Championships          Debrecen, Hungary       2nd         400 m   47.12
+2001     World Youth Championships          Debrecen, Hungary       1st  Medley relay 1:50.46
+2001 European Junior Championships            Grosseto, Italy       1st 4x400 m relay 3:06.12
+2003 European Junior Championships           Tampere, Finland       3rd         400 m   46.69
+2003 European Junior Championships           Tampere, Finland       2nd 4x400 m relay 3:08.62
+2005    European U23 Championships            Erfurt, Germany 11th (sf)         400 m   46.62
+2005    European U23 Championships            Erfurt, Germany       1st 4x400 m relay 3:04.41
+2005                   Universiade              Izmir, Turkey       7th         400 m   46.89
+2005                   Universiade              Izmir, Turkey       1st 4x400 m relay 3:02.57
+2006    World Indoor Championships             Moscow, Russia   2nd (h) 4x400 m relay 3:06.10
+2006        European Championships         Gothenburg, Sweden       3rd 4x400 m relay 3:01.73
+2007 European Indoor Championships Birmingham, United Kingdom       3rd 4x400 m relay 3:08.14
+2007                   Universiade          Bangkok, Thailand       7th         400 m   46.85
+2007                   Universiade          Bangkok, Thailand       1st 4x400 m relay 3:02.05
+2008    World Indoor Championships            Valencia, Spain       4th 4x400 m relay 3:08.76
+2008                 Olympic Games             Beijing, China       7th 4x400 m relay 3:00.32
+2009                   Universiade           Belgrade, Serbia       2nd 4x400 m relay 3:05.69
+
+Restructured Table:
+```
+Year | Competition                      | Venue                   | Position       | Event            | Notes  
+2001 | World Youth Championships         | Debrecen, Hungary      | 2nd           | 400 m           | 47.12  
+2001 | World Youth Championships         | Debrecen, Hungary      | 1st           | Medley relay     | 1:50.46  
+2001 | European Junior Championships     | Grosseto, Italy        | 1st           | 4x400 m relay    | 3:06.12  
+2003 | European Junior Championships     | Tampere, Finland       | 3rd           | 400 m           | 46.69  
+2003 | European Junior Championships     | Tampere, Finland       | 2nd           | 4x400 m relay    | 3:08.62  
+2005 | European U23 Championships       | Erfurt, Germany        | 11th (sf)     | 400 m           | 46.62  
+2005 | European U23 Championships       | Erfurt, Germany        | 1st           | 4x400 m relay    | 3:04.41  
+2005 | Universiade                      | Izmir, Turkey          | 7th           | 400 m           | 46.89  
+2005 | Universiade                      | Izmir, Turkey          | 1st           | 4x400 m relay    | 3:02.57  
+2006 | World Indoor Championships        | Moscow, Russia         | 2nd (h)       | 4x400 m relay    | 3:06.10  
+2006 | European Championships            | Gothenburg, Sweden     | 3rd           | 4x400 m relay    | 3:01.73  
+2007 | European Indoor Championships     | Birmingham, United Kingdom | 3rd        | 4x400 m relay    | 3:08.14  
+2007 | Universiade                      | Bangkok, Thailand      | 7th           | 400 m           | 46.85  
+2007 | Universiade                      | Bangkok, Thailand      | 1st           | 4x400 m relay    | 3:02.05  
+2008 | World Indoor Championships        | Valencia, Spain        | 4th           | 4x400 m relay    | 3:08.76  
+2008 | Olympic Games                    | Beijing, China         | 7th           | 4x400 m relay    | 3:00.32  
+2009 | Universiade                      | Belgrade, Serbia       | 2nd           | 4x400 m relay    | 3:05.69  
+```
+
+
+--- Table 2 ---
+Original Table:
+             Date            Opponent Venue Result Attendance                                      Scorers
+   15 August 1987        Derby County  Away    0–1     17,204                                            —
+   18 August 1987       Coventry City  Home    0–1     09,380                                            —
+   22 August 1987     West Ham United  Home    2–2     08,073                                  Harford (2)
+   29 August 1987             Chelsea  Away    0–3     16,075                                            —
+   31 August 1987             Arsenal  Home    1–1     08,745                                 Wilson (pen)
+ 5 September 1987       Oxford United  Away    5–2     06,804  Breacker, Harford, Hill, Nwajiobi, B. Stein
+12 September 1987             Everton  Home    2–1     08,124                               Hill, B. Stein
+19 September 1987   Charlton Athletic  Away    0–1     05,002                                            —
+26 September 1987 Queens Park Rangers  Away    0–2     11,175                                            —
+   3 October 1987   Manchester United  Home    1–1     09,137                                      Harford
+  10 October 1987          Portsmouth  Away    1–3     12,391                                Harford (pen)
+  17 October 1987           Wimbledon  Home    2–0     07,018                             B. Stein, Wilson
+  24 October 1987           Liverpool  Home    0–1     11,997                                            —
+  7 November 1987    Newcastle United  Home    4–0     07,638             Nwajiobi, B. Stein, M. Stein (2)
+ 14 November 1987 Sheffield Wednesday  Away    2–0     16,960                           Allinson, M. Stein
+ 21 November 1987   Tottenham Hotspur  Home    2–0     10,091                                 Allinson (2)
+  5 December 1987        Norwich City  Home    1–2     07,002                                     B. Stein
+ 12 December 1987             Watford  Away    1–0     12,152                                       Foster
+ 18 December 1987         Southampton  Home    2–2     06,618                           Harford, McDonough
+ 26 December 1987             Everton  Away    0–2     32,128                                            —
+ 28 December 1987   Charlton Athletic  Home    1–0     07,243                                       Wilson
+   1 January 1988             Chelsea  Home    3–0     08,018                  Harford, B. Stein, M. Stein
+   2 January 1988     West Ham United  Away    1–1     16,716                                     M. Stein
+  16 January 1988        Derby County  Home    1–0     07,175                                    McDonough
+  6 February 1988       Oxford United  Home    7–4     08,063 Harford (2), McDonough, B.Stein, M.Stein (3)
+ 13 February 1988             Arsenal  Away    1–2     22,612                                      M.Stein
+     5 March 1988           Wimbledon  Away    0–2     04,854                                            —
+    15 March 1988       Coventry City  Away    0–4     13,711                                            —
+    29 March 1988          Portsmouth  Home    4–1     06,740           B.Stein, M.Stein, Wilson, own goal
+     2 April 1988    Newcastle United  Away    0–4     20,752                                            —
+     5 April 1988 Sheffield Wednesday  Home    2–2     07,337                          McDonough, B. Stein
+    12 April 1988   Manchester United  Away    0–3     28,830                                            —
+    19 April 1988 Queens Park Rangers  Home    2–1     06,735                         Foster, Wilson (pen)
+    30 April 1988        Norwich City  Away    2–2     13,171                       M. Stein, Wilson (pen)
+       2 May 1988             Watford  Home    2–1     10,409                       Oldfield, Wilson (pen)
+       4 May 1988   Tottenham Hotspur  Away    1–2     15,437                                       Grimes
+       7 May 1988         Southampton  Away    1–1     12,722                                       Wilson
+       9 May 1988           Liverpool  Away    1–1     30,374                                     Oldfield
+      13 May 1988   Nottingham Forest  Home    1–1     09,108                                      Donaghy
+      15 May 1988   Nottingham Forest  Away    1–1     13,106                                     Oldfield
+
+Restructured Table:
+```
+        Date            | Opponent             | Venue | Result | Attendance | Scorers
+---------------------|----------------------|-------|--------|------------|----------------------------------------------------
+15 August 1987       | Derby County         | Away  | 0–1    | 17,204     | —
+18 August 1987       | Coventry City        | Home  | 0–1    | 09,380     | —
+22 August 1987       | West Ham United      | Home  | 2–2    | 08,073     | Harford (2)
+29 August 1987       | Chelsea              | Away  | 0–3    | 16,075     | —
+31 August 1987       | Arsenal              | Home  | 1–1    | 08,745     | Wilson (pen)
+5 September 1987     | Oxford United        | Away  | 5–2    | 06,804     | Breacker, Harford, Hill, Nwajiobi, B. Stein
+12 September 1987    | Everton              | Home  | 2–1    | 08,124     | Hill, B. Stein
+19 September 1987    | Charlton Athletic    | Away  | 0–1    | 05,002     | —
+26 September 1987    | Queens Park Rangers  | Away  | 0–2    | 11,175     | —
+3 October 1987       | Manchester United    | Home  | 1–1    | 09,137     | Harford
+10 October 1987      | Portsmouth           | Away  | 1–3    | 12,391     | Harford (pen)
+17 October 1987      | Wimbledon            | Home  | 2–0    | 07,018     | B. Stein, Wilson
+24 October 1987      | Liverpool            | Home  | 0–1    | 11,997     | —
+7 November 1987      | Newcastle United     | Home  | 4–0    | 07,638     | Nwajiobi, B. Stein, M. Stein (2)
+14 November 1987     | Sheffield Wednesday   | Away  | 2–0    | 16,960     | Allinson, M. Stein
+21 November 1987     | Tottenham Hotspur    | Home  | 2–0    | 10,091     | Allinson (2)
+5 December 1987      | Norwich City         | Home  | 1–2    | 07,002     | B. Stein
+12 December 1987     | Watford              | Away  | 1–0    | 12,152     | Foster
+18 December 1987     | Southampton          | Home  | 2–2    | 06,618     | Harford, McDonough
+26 December 1987     | Everton              | Away  | 0–2    | 32,128     | —
+28 December 1987     | Charlton Athletic    | Home  | 1–0    | 07,243     | Wilson
+1 January 1988       | Chelsea              | Home  | 3–0    | 08,018     | Harford, B. Stein, M. Stein
+2 January 1988       | West Ham United      | Away  | 1–1    | 16,716     | M. Stein
+16 January 1988      | Derby County         | Home  | 1–0    | 07,175     | McDonough
+6 February 1988      | Oxford United        | Home  | 7–4    | 08,063     | Harford (2), McDonough, B. Stein, M. Stein (3)
+13 February 1988     | Arsenal              | Away  | 1–2    | 22,612     | M. Stein
+5 March 1988         | Wimbledon            | Away  | 0–2    | 04,854     | —
+15 March 1988        | Coventry City        | Away  | 0–4    | 13,711     | —
+29 March 1988        | Portsmouth           | Home  | 4–1    | 06,740     | B. Stein, M. Stein, Wilson, own goal
+2 April 1988         | Newcastle United     | Away  | 0–4    | 20,752     | —
+5 April 1988         | Sheffield Wednesday   | Home  | 2–2    | 07,337     | McDonough, B. Stein
+12 April 1988        | Manchester United    | Away  | 0–3    | 28,830     | —
+19 April 1988        | Queens Park Rangers  | Home  | 2–1    | 06,735     | Foster, Wilson (pen)
+30 April 1988        | Norwich City         | Away  | 2–2    | 13,171     | M. Stein, Wilson (pen)
+2 May 1988           | Watford              | Home  | 2–1    | 10,409     | Oldfield, Wilson (pen)
+4 May 1988           | Tottenham Hotspur    | Away  | 1–2    | 15,437     | Grimes
+7 May 1988           | Southampton          | Away  | 1–1    | 12,722     | Wilson
+9 May 1988           | Liverpool            | Away  | 1–1    | 30,374     | Oldfield
+13 May 1988          | Nottingham Forest    | Home  | 1–1    | 09,108     | Donaghy
+15 May 1988          | Nottingham Forest    | Away  | 1–1    | 13,106     | Oldfield
+```
+
+
+--- Table 3 ---
+Original Table:
+                 Name       Took office    Left office                 Party                                                      Notes/Events
+11   William McCreery     March 4, 1803  March 3, 1809 Democratic Republican                                                                  
+12    Alexander McKim     March 4, 1809  March 3, 1815 Democratic Republican                                                                  
+13    William Pinkney     March 4, 1815 April 18, 1816 Democratic Republican Resigned to accept position as Minister Plenipotentiary to Russia
+14       Peter Little September 2, 1816  March 3, 1823 Democratic Republican                                                                  
+14       Peter Little     March 4, 1823  March 3, 1825         Jacksonian DR                                                                  
+14       Peter Little     March 4, 1825  March 3, 1829                 Adams                                                                  
+15 Benjamin C. Howard     March 4, 1829  March 3, 1833            Jacksonian                                                                  
+
+Restructured Table:
+| Rank | Name               | Took office     | Left office     | Party                     | Notes/Events                                                      |
+|------|--------------------|------------------|------------------|---------------------------|------------------------------------------------------------------|
+| 11   | William McCreery   | March 4, 1803    | March 3, 1809    | Democratic Republican      |                                                                  |
+| 12   | Alexander McKim    | March 4, 1809    | March 3, 1815    | Democratic Republican      |                                                                  |
+| 13   | William Pinkney     | March 4, 1815    | April 18, 1816   | Democratic Republican      | Resigned to accept position as Minister Plenipotentiary to Russia|
+| 14   | Peter Little       | September 2, 1816| March 3, 1823    | Democratic Republican      |                                                                  |
+| 14   | Peter Little       | March 4, 1823    | March 3, 1825    | Jacksonian DR             |                                                                  |
+| 14   | Peter Little       | March 4, 1825    | March 3, 1829    | Adams                     |                                                                  |
+| 15   | Benjamin C. Howard  | March 4, 1829    | March 3, 1833    | Jacksonian                |                                                                  |
+
+
+--- Table 4 ---
+Original Table:
+Tie no              Home team    Score              Away team
+    49   Dalsjöfors GoIF (WC)      1-4      Varbergs GIF (D3)
+    50     Sjömarkens IF (D4)      1-4    BK Slätta Damm (D3)
+    51          IF Tymer (D4)      0-3      Kållereds SK (D3)
+    52           IFK Hjo (WC)      0-4         Nässjö FF (D3)
+    53     Falköpings FK (D4)      2-0    Gånghesters SK (D4)
+    54     Ankarsrums IS (WC)      1-2     Linköpings FF (D3)
+    55         Rödsle BK (D4) 1-0 (gg)       Skeninge IK (D4)
+    56         Lindås BK (D4)      1-3     Hultsfreds FK (D3)
+    57     Hvetlanda GIF (D4)      0-1     Åhus Horna BK (D3)
+    58      Bredaryds IK (D4)      3-0   Ulricehamns IFK (D3)
+    59      Hovslätts IK (D4)      0-9     Tidaholms GIF (D2)
+    60         Torpa AIS (D4)      0-2          BK Zeros (D3)
+    61        Fiskeby IF (WC) 2-1 (gg)     Västerviks FF (D4)
+    62         Gnösjö IF (D4)      1-3        Skövde AIK (D2)
+    63         Sävsjö FF (D4)      5-3  Skillingaryds IS (D4)
+    64       Boxholms IF (WC)      1-2        Tranås AIF (D3)
+    65            LSW IF (D4)      2-1      Husqvarna FF (D2)
+    66      Lessebo GoIF (D4)      0-1       Listerby IK (D4)
+    67        Rörviks IF (D4)      0-2          Lunds BK (D2)
+    68        Lagans AIK (D4)      0-1      Högaborgs BK (D2)
+    69          IF Eksjö (D4)      1-4         Kalmar FF (D2)
+    70      Limmareds IF (D4)      1-5    Växjö Norra IF (D2)
+    71      Bankeryds SK (D4)      4-1       Hjulsbro IK (D2)
+    72      Skultorps IF (D4)      0-2        BK Forward (D2)
+    73     Gullspångs IF (D4)      0-7       Rynninge IK (D3)
+    74          Skara FC (D4)      0-4     Karlslunds IF (D3)
+    75        Bråtens IK (D4)      0-4 Vivalla-Lundby IF (D3)
+    76      Finnerödja IF(D4)      3-1     IFK Mariestad (D4)
+    77     Sköllersta IF (D4)      1-3   Hemgårdarnas BK (D4)
+    78    Simonstorps IF (D4)      0-5     Nyköpings BIS (D2)
+    79      Ringarums IF (D4)      1-4       Värmbols FC (D4)
+    80      Dagsbergs IF (D4)      1-0    Malmköpings IF (D4)
+    81   Katrineholms SK (D4)      0-2          BK Kenty (D4)
+    82          Härad IF (D4) 2-3 (gg)      IFK Västerås (D2)
+    83         Kolsva IF (D4)      0-3       Karlstad BK (D2)
+    84           Laxå IF (D4)      0-4         IF Sylvia (D2)
+    85         Ransta IK (D4)      1-3     IFK Hallsberg (D4)
+    86     Skyllbergs IK (WC)      0-4  IFK Kristinehamn (D4)
+    87     Filipstads FF (D4)      3-1       Kungsörs SK (D4)
+    88 Hallstahammars SK (D4)      0-7    IFK Eskilstuna (D2)
+    89           BK Hird (D4)      0-5          Hargs BK (D2)
+    90     Vretstorps IF (WC)      1-5          IFK Ölme (D3)
+    91          Frövi IK (WC)      1-9       Skiljebo SK (D3)
+    92           IF Rune (WC)      1-3         Gnesta FF (D3)
+    93    Västerås BK 30 (WC)      0-8  Örebro SK Ungdom (D4)
+    94        VoIF Diana (WC)      4-0        Enskede IK (D4)
+    95       New Mill FF (WC)      4-2        Värtans SK (D3)
+    96 Runtuna IK/Löthen (WC)      1-2       Huddinge IF (D3)
+
+Restructured Table:
+```
+Tie no | Home team (Division)        | Score | Away team (Division)
+49     | Dalsjöfors GoIF (WC)       | 1-4   | Varbergs GIF (D3)
+50     | Sjömarkens IF (D4)         | 1-4   | BK Slätta Damm (D3)
+51     | IF Tymer (D4)              | 0-3   | Kållereds SK (D3)
+52     | IFK Hjo (WC)               | 0-4   | Nässjö FF (D3)
+53     | Falköpings FK (D4)         | 2-0   | Gånghesters SK (D4)
+54     | Ankarsrums IS (WC)         | 1-2   | Linköpings FF (D3)
+55     | Rödsle BK (D4)             | 1-0 (gg) | Skeninge IK (D4)
+56     | Lindås BK (D4)             | 1-3   | Hultsfreds FK (D3)
+57     | Hvetlanda GIF (D4)         | 0-1   | Åhus Horna BK (D3)
+58     | Bredaryds IK (D4)          | 3-0   | Ulricehamns IFK (D3)
+59     | Hovslätts IK (D4)          | 0-9   | Tidaholms GIF (D2)
+60     | Torpa AIS (D4)             | 0-2   | BK Zeros (D3)
+61     | Fiskeby IF (WC)            | 2-1 (gg) | Västerviks FF (D4)
+62     | Gnösjö IF (D4)             | 1-3   | Skövde AIK (D2)
+63     | Sävsjö FF (D4)             | 5-3   | Skillingaryds IS (D4)
+64     | Boxholms IF (WC)           | 1-2   | Tranås AIF (D3)
+65     | LSW IF (D4)                | 2-1   | Husqvarna FF (D2)
+66     | Lessebo GoIF (D4)          | 0-1   | Listerby IK (D4)
+67     | Rörviks IF (D4)            | 0-2   | Lunds BK (D2)
+68     | Lagans AIK (D4)            | 0-1   | Högaborgs BK (D2)
+69     | IF Eksjö (D4)              | 1-4   | Kalmar FF (D2)
+70     | Limmareds IF (D4)          | 1-5   | Växjö Norra IF (D2)
+71     | Bankeryds SK (D4)          | 4-1   | Hjulsbro IK (D2)
+72     | Skultorps IF (D4)          | 0-2   | BK Forward (D2)
+73     | Gullspångs IF (D4)         | 0-7   | Rynninge IK (D3)
+74     | Skara FC (D4)              | 0-4   | Karlslunds IF (D3)
+75     | Bråtens IK (D4)            | 0-4   | Vivalla-Lundby IF (D3)
+76     | Finnerödja IF (D4)         | 3-1   | IFK Mariestad (D4)
+77     | Sköllersta IF (D4)         | 1-3   | Hemgårdarnas BK (D4)
+78     | Simonstorps IF (D4)        | 0-5   | Nyköpings BIS (D2)
+79     | Ringarums IF (D4)          | 1-4   | Värmbols FC (D4)
+80     | Dagsbergs IF (D4)          | 1-0   | Malmköpings IF (D4)
+81     | Katrineholms SK (D4)       | 0-2   | BK Kenty (D4)
+82     | Härad IF (D4)              | 2-3 (gg) | IFK Västerås (D2)
+83     | Kolsva IF (D4)             | 0-3   | Karlstad BK (D2)
+84     | Laxå IF (D4)               | 0-4   | IF Sylvia (D2)
+85     | Ransta IK (D4)             | 1-3   | IFK Hallsberg (D4)
+86     | Skyllbergs IK (WC)         | 0-4   | IFK Kristinehamn (D4)
+87     | Filipstads FF (D4)         | 3-1   | Kungsörs SK (D4)
+88     | Hallstahammars SK (D4)     | 0-7   | IFK Eskilstuna (D2)
+89     | BK Hird (D4)               | 0-5   | Hargs BK (D2)
+90     | Vretstorps IF (WC)         | 1-5   | IFK Ölme (D3)
+91     | Frövi IK (WC)              | 1-9   | Skiljebo SK (D3)
+92     | IF Rune (WC)               | 1-3   | Gnesta FF (D3)
+93     | Västerås BK 30 (WC)        | 0-8   | Örebro SK Ungdom (D4)
+94     | VoIF Diana (WC)            | 4-0   | Enskede IK (D4)
+95     | New Mill FF (WC)           | 4-2   | Värtans SK (D3)
+96     | Runtuna IK/Löthen (WC)     | 1-2   | Huddinge IF (D3)
+```
+
+
+--- Table 5 ---
+Original Table:
+          Name in English   Name in Turkish Area (km2) Depth Location (districts and/or provinces)
+                 Lake Van          Van Gölü   3755 km2 451 m                           Van, Bitlis
+                 Lake Tuz          Tuz Gölü   1500 km2   2 m                Aksaray, Ankara, Konya
+            Lake Beyşehir     Beyşehir Gölü    656 km2  10 m            Beyşehir in Konya, Isparta
+             Lake Eğirdir      Eğirdir Gölü    482 km2                                     Isparta
+               Lake İznik        İznik Gölü    308 km2                      İznik in Bursa, Yalova
+              Lake Burdur       Burdur Gölü    200 km2                             Burdur, Isparta
+              Lake Manyas       Manyas Gölü    166 km2                                   Balıkesir
+              Lake Acıgöl            Acıgöl    153 km2                     Denizli, Afyonkarahisar
+             Lake Uluabat      Uluabat Gölü    134 km2 1–2 m                                 Bursa
+              Lake Çıldır       Çıldır Gölü    115 km2                               Ardahan, Kars
+         Lake Palas Tuzla  Palas Tuzla Gölü    106 km2  15 m                         Palas/Kayseri
+             Lake Akşehir      Akşehir Gölü    105 km2            Akşehir in Konya, Afyonkarahisar
+                Lake Eber         Eber Gölü    104 km2                              Afyonkarahisar
+               Lake Erçek        Erçek Gölü     98 km2                                         Van
+               Lake Hazar        Hazar Gölü     86 km2                                      Elazığ
+                Lake Bafa         Bafa Gölü     60 km2                                Aydın, Muğla
+            Lake Köyceğiz     Köyceğiz Gölü     52 km2                           Köyceğiz in Muğla
+              Lake Işıklı       Işıklı Gölü     49 km2                                     Denizli
+               Lake Nazik        Nazik Gölü     48 km2                                      Bitlis
+             Lake Sapanca      Sapanca Gölü     47 km2                            Sakarya Province
+               Lake Salda        Salda Gölü     45 km2 184 m                                Burdur
+                 Lake Yay          Yay Gölü     37 km2                                     Kayseri
+             Lake Akyatan      Akyatan Gölü     35 km2                                       Adana
+               Lake Balık        Balık Gölü     34 km2                         Doğubeyazıt in Ağrı
+             Lake Marmara      Marmara Gölü     34 km2               Salihli, Gölmarmara in Manisa
+                 Lake Çöl          Çöl Gölü     32 km2                                      Ankara
+Lake Durusu (Lake Terkos)       Durusu Gölü     25 km2                                    İstanbul
+              Lake Karine       Karine Gölü     24 km2                                            
+               Lake Tuzla        Tuzla Gölü     23 km2                                       Tuzla
+        Lake Küçükçekmece Küçükçekmece Gölü     16 km2                      Küçükçekmece, İstanbul
+             Lake Yaraşlı      Yaraşlı Gölü     16 km2                                      Burdur
+               Lake Haçlı        Haçlı Gölü     16 km2                                         Muş
+               Lake Seyfe        Seyfe Gölü     15 km2                                    Kırşehir
+             Lake Akyayan      Akyayan Gölü     15 km2                                            
+             Lake Hozapin      Hozapin Gölü     14 km2                                            
+                Lake Arin         Arin Gölü     13 km2                                            
+              Lake Nemrut       Nemrut Gölü     12 km2                             Bitlis Province
+               Lake Balık        Balık Gölü     12 km2                                            
+        Lake Büyükçekmece Büyükçekmece Gölü     11 km2                      Büyükçekmece, Istanbul
+               Lake Boluk        Boluk Gölü     11 km2                                            
+             Lake Akdoğan      Akdoğan Gölü     11 km2                                            
+             Lake Çavuşlu      Çavuşlu Gölü      9 km2                                            
+               Lake Düden        Düden Gölü      8 km2                                            
+                Lake Gala         Gala Gölü      8 km2                                      Edirne
+             Lake Karataş      Karataş Gölü      6 km2                                            
+               Lake Mogan        Mogan Gölü      6 km2                                      Ankara
+                Paradeniz         Paradeniz      4 km2                                      Mersin
+               Lake Eymir        Eymir Gölü    1.8 km2                                      Ankara
+               Lake Abant        Abant Gölü   1.28 km2  18 m                                  Bolu
+              Lake Gölcük       Gölcük Gölü      1 km2                                       İzmir
+
+Restructured Table:
+```
+Name in English                  | Name in Turkish          | Area (km2) | Depth | Location (districts and/or provinces)
+---------------------------------|-------------------------|------------|-------|---------------------------------------
+Lake Van                         | Van Gölü                | 3755 km2   | 451 m | Van, Bitlis
+Lake Tuz                         | Tuz Gölü                | 1500 km2   | 2 m   | Aksaray, Ankara, Konya
+Lake Beyşehir                    | Beyşehir Gölü           | 656 km2    | 10 m  | Beyşehir in Konya, Isparta
+Lake Eğirdir                     | Eğirdir Gölü            | 482 km2    |       | Isparta
+Lake İznik                       | İznik Gölü              | 308 km2    |       | İznik in Bursa, Yalova
+Lake Burdur                      | Burdur Gölü             | 200 km2    |       | Burdur, Isparta
+Lake Manyas                      | Manyas Gölü             | 166 km2    |       | Balıkesir
+Lake Acıgöl                      | Acıgöl                  | 153 km2    |       | Denizli, Afyonkarahisar
+Lake Uluabat                     | Uluabat Gölü            | 134 km2    | 1–2 m | Bursa
+Lake Çıldır                      | Çıldır Gölü             | 115 km2    |       | Ardahan, Kars
+Lake Palas Tuzla                 | Palas Tuzla Gölü        | 106 km2    | 15 m  | Palas/Kayseri
+Lake Akşehir                     | Akşehir Gölü            | 105 km2    |       | Akşehir in Konya, Afyonkarahisar
+Lake Eber                        | Eber Gölü               | 104 km2    |       | Afyonkarahisar
+Lake Erçek                       | Erçek Gölü              | 98 km2     |       | Van
+Lake Hazar                       | Hazar Gölü              | 86 km2     |       | Elazığ
+Lake Bafa                        | Bafa Gölü               | 60 km2     |       | Aydın, Muğla
+Lake Köyceğiz                    | Köyceğiz Gölü           | 52 km2     |       | Köyceğiz in Muğla
+Lake Işıklı                      | Işıklı Gölü             | 49 km2     |       | Denizli
+Lake Nazik                       | Nazik Gölü              | 48 km2     |       | Bitlis
+Lake Sapanca                     | Sapanca Gölü            | 47 km2     |       | Sakarya Province
+Lake Salda                       | Salda Gölü              | 45 km2     | 184 m | Burdur
+Lake Yay                         | Yay Gölü                | 37 km2     |       | Kayseri
+Lake Akyatan                    | Akyatan Gölü            | 35 km2     |       | Adana
+Lake Balık                       | Balık Gölü              | 34 km2     |       | Doğubeyazıt in Ağrı
+Lake Marmara                     | Marmara Gölü            | 34 km2     |       | Salihli, Gölmarmara in Manisa
+Lake Çöl                         | Çöl Gölü                | 32 km2     |       | Ankara
+Lake Durusu (Lake Terkos)       | Durusu Gölü             | 25 km2     |       | İstanbul
+Lake Karine                     | Karine Gölü             | 24 km2     |       | 
+Lake Tuzla                      | Tuzla Gölü              | 23 km2     |       | Tuzla
+Lake Küçükçekmece               | Küçükçekmece Gölü       | 16 km2     |       | Küçükçekmece, İstanbul
+Lake Yaraşlı                    | Yaraşlı Gölü            | 16 km2     |       | Burdur
+Lake Haçlı                      | Haçlı Gölü              | 16 km2     |       | Muş
+Lake Seyfe                      | Seyfe Gölü              | 15 km2     |       | Kırşehir
+Lake Akyayan                    | Akyayan Gölü            | 15 km2     |       | 
+Lake Hozapin                    | Hozapin Gölü            | 14 km2     |       | 
+Lake Arin                       | Arin Gölü               | 13 km2     |       | 
+Lake Nemrut                     | Nemrut Gölü             | 12 km2     |       | Bitlis Province
+Lake Balık                       | Balık Gölü              | 12 km2     |       | 
+Lake Büyükçekmece               | Büyükçekmece Gölü       | 11 km2     |       | Büyükçekmece, Istanbul
+Lake Boluk                      | Boluk Gölü              | 11 km2     |       | 
+Lake Akdoğan                    | Akdoğan Gölü            | 11 km2     |       | 
+Lake Çavuşlu                    | Çavuşlu Gölü            | 9 km2      |       | 
+Lake Düden                      | Düden Gölü              | 8 km2      |       | 
+Lake Gala                       | Gala Gölü               | 8 km2      |       | Edirne
+Lake Karataş                    | Karataş Gölü            | 6 km2      |       | 
+Lake Mogan                      | Mogan Gölü              | 6 km2      |       | Ankara
+Lake Paradeniz                  | Paradeniz               | 4 km2      |       | Mersin
+Lake Eymir                      | Eymir Gölü              | 1.8 km2    |       | Ankara
+Lake Abant                      | Abant Gölü              | 1.28 km2   | 18 m  | Bolu
+Lake Gölcük                     | Gölcük Gölü             | 1 km2      |       | İzmir
+```
+
+
+--- Table 6 ---
+Original Table:
+Round Round        Circuit        Date     Pole Position       Fastest Lap     Winning Rider
+    1    R1          Jerez    18 March     Raymond Roche  Stéphane Mertens     Raymond Roche
+    1    R2          Jerez    18 March     Raymond Roche     Raymond Roche     Raymond Roche
+    2    R1      Donington    16 April Giancarlo Falappa       Rob Phillis       Fred Merkel
+    2    R2      Donington    16 April Giancarlo Falappa     Raymond Roche Giancarlo Falappa
+    3    R1    Hungaroring    30 April  Malcolm Campbell     Raymond Roche       Fred Merkel
+    3    R2    Hungaroring    30 April  Malcolm Campbell       Fred Merkel     Raymond Roche
+    4    R1     Hockenheim       6 May     Raymond Roche       Fred Merkel       Fred Merkel
+    4    R2     Hockenheim       6 May     Raymond Roche     Raymond Roche  Stéphane Mertens
+    5    R1        Mosport      3 June Giancarlo Falappa     Raymond Roche     Raymond Roche
+    5    R2        Mosport      3 June Giancarlo Falappa       Jamie James     Raymond Roche
+    6    R1       Brainerd     10 June     Doug Chandler     Doug Chandler  Stéphane Mertens
+    6    R2       Brainerd     10 June     Doug Chandler Fabrizio Pirovano     Doug Chandler
+    7    R1 Österreichring      1 July  Stéphane Mertens       Rob McElnea Fabrizio Pirovano
+    7    R2 Österreichring      1 July  Stéphane Mertens  Stéphane Mertens  Stéphane Mertens
+    8    R1           Sugo   26 August     Raymond Roche     Raymond Roche     Raymond Roche
+    8    R2           Sugo   26 August     Raymond Roche     Peter Goddard     Doug Chandler
+    9    R1        Le Mans 9 September Baldassarre Monti     Raymond Roche     Raymond Roche
+    9    R2        Le Mans 9 September Baldassarre Monti       Jamie James     Raymond Roche
+   10    R1          Monza   7 October Baldassarre Monti       Rob Phillis Fabrizio Pirovano
+   10    R2          Monza   7 October Baldassarre Monti       Rob Phillis Fabrizio Pirovano
+   11    R1      Shah Alam  4 November       Rob Phillis Fabrizio Pirovano Fabrizio Pirovano
+   11    R2      Shah Alam  4 November       Rob Phillis     Raymond Roche Fabrizio Pirovano
+   12    R1 Phillip Island 11 November     Peter Goddard Fabrizio Pirovano     Peter Goddard
+   12    R2 Phillip Island 11 November     Peter Goddard  Malcolm Campbell       Rob Phillis
+   13    R1       Manfeild 18 November       Rob Phillis    Brian Morrison       Terry Rymer
+   13    R2       Manfeild 18 November       Rob Phillis     Raymond Roche       Rob Phillis
+
+Restructured Table:
+```
+Round | Circuit        | Date        | Pole Position         | Fastest Lap           | Winning Rider
+1     | Jerez         | 18 March   | Raymond Roche         | Stéphane Mertens     | Raymond Roche
+1     | Jerez         | 18 March   | Raymond Roche         | Raymond Roche         | Raymond Roche
+2     | Donington     | 16 April   | Giancarlo Falappa     | Rob Phillis          | Fred Merkel
+2     | Donington     | 16 April   | Giancarlo Falappa     | Raymond Roche         | Giancarlo Falappa
+3     | Hungaroring   | 30 April   | Malcolm Campbell       | Raymond Roche         | Fred Merkel
+3     | Hungaroring   | 30 April   | Malcolm Campbell       | Fred Merkel           | Raymond Roche
+4     | Hockenheim    | 6 May      | Raymond Roche         | Fred Merkel           | Fred Merkel
+4     | Hockenheim    | 6 May      | Raymond Roche         | Raymond Roche         | Stéphane Mertens
+5     | Mosport       | 3 June     | Giancarlo Falappa     | Raymond Roche         | Raymond Roche
+5     | Mosport       | 3 June     | Giancarlo Falappa     | Jamie James           | Raymond Roche
+6     | Brainerd      | 10 June    | Doug Chandler          | Doug Chandler         | Stéphane Mertens
+6     | Brainerd      | 10 June    | Doug Chandler          | Fabrizio Pirovano     | Doug Chandler
+7     | Österreichring | 1 July    | Stéphane Mertens      | Rob McElnea          | Fabrizio Pirovano
+7     | Österreichring | 1 July    | Stéphane Mertens      | Stéphane Mertens     | Stéphane Mertens
+8     | Sugo          | 26 August  | Raymond Roche         | Raymond Roche         | Raymond Roche
+8     | Sugo          | 26 August  | Raymond Roche         | Peter Goddard        | Doug Chandler
+9     | Le Mans       | 9 September | Baldassarre Monti     | Raymond Roche         | Raymond Roche
+9     | Le Mans       | 9 September | Baldassarre Monti     | Jamie James           | Raymond Roche
+10    | Monza         | 7 October  | Baldassarre Monti     | Rob Phillis          | Fabrizio Pirovano
+10    | Monza         | 7 October  | Baldassarre Monti     | Rob Phillis          | Fabrizio Pirovano
+11    | Shah Alam     | 4 November | Rob Phillis           | Fabrizio Pirovano     | Fabrizio Pirovano
+11    | Shah Alam     | 4 November | Rob Phillis           | Raymond Roche         | Fabrizio Pirovano
+12    | Phillip Island | 11 November | Peter Goddard        | Fabrizio Pirovano     | Peter Goddard
+12    | Phillip Island | 11 November | Peter Goddard        | Malcolm Campbell       | Rob Phillis
+13    | Manfeild      | 18 November | Rob Phillis          | Brian Morrison        | Terry Rymer
+13    | Manfeild      | 18 November | Rob Phillis          | Raymond Roche         | Rob Phillis
+```
+
+
+--- Table 7 ---
+Original Table:
+Year         Competition                  Venue Position  Notes
+1996       Olympic Games Atlanta, United States 36th (q) 5.55 m
+1998         Asian Games      Bangkok, Thailand      8th 6.07 m
+1999 World Championships         Seville, Spain 23rd (q) 6.40 m
+2000       Olympic Games      Sydney, Australia 14th (q) 6.57 m
+2001 World Championships       Edmonton, Canada 13th (q) 6.46 m
+2002 Asian Championships     Colombo, Sri Lanka      1st 6.61 m
+2002         Asian Games     Busan, South Korea      3rd 6.30 m
+2003 World Championships          Paris, France 23rd (q) 6.13 m
+2003 Asian Championships    Manila, Philippines      6th 6.23 m
+2004       Olympic Games         Athens, Greece     11th 6.53 m
+
+Restructured Table:
+```
+Year | Competition               | Venue                      | Position | Notes
+1996 | Olympic Games             | Atlanta, United States     | 36th (q) | 5.55 m
+1998 | Asian Games               | Bangkok, Thailand          | 8th      | 6.07 m
+1999 | World Championships       | Seville, Spain            | 23rd (q) | 6.40 m
+2000 | Olympic Games             | Sydney, Australia          | 14th (q) | 6.57 m
+2001 | World Championships       | Edmonton, Canada           | 13th (q) | 6.46 m
+2002 | Asian Championships       | Colombo, Sri Lanka        | 1st      | 6.61 m
+2002 | Asian Games               | Busan, South Korea        | 3rd      | 6.30 m
+2003 | World Championships       | Paris, France             | 23rd (q) | 6.13 m
+2003 | Asian Championships       | Manila, Philippines       | 6th      | 6.23 m
+2004 | Olympic Games             | Athens, Greece            | 11th     | 6.53 m
+```
+
+
+--- Table 8 ---
+Original Table:
+No.                    Temple      Honzon (main image) City/Town/Village           Prefecture
+  1           Ryōzen-ji (霊山寺)             Shaka Nyorai            Naruto Tokushima Prefecture
+  2         Gokuraku-ji (極楽寺)             Amida Nyorai            Naruto Tokushima Prefecture
+  3           Konsen-ji (金泉寺)             Shaka Nyorai             Itano Tokushima Prefecture
+  4         Dainichi-ji (大日寺)          Dainichi Nyorai             Itano Tokushima Prefecture
+  5             Jizō-ji (地蔵寺)       Enmei Jizō Bosatsu             Itano Tokushima Prefecture
+  6           Anraku-ji (安楽寺)           Yakushi Nyorai           Kamiita Tokushima Prefecture
+  7           Jūraku-ji (十楽寺)             Amida Nyorai               Awa Tokushima Prefecture
+  8         Kumadani-ji (熊谷寺)             Senjū Kannon               Awa Tokushima Prefecture
+  9            Hōrin-ji (法輪寺)             Shaka Nyorai               Awa Tokushima Prefecture
+ 10         Kirihata-ji (切幡寺)             Senjū Kannon               Awa Tokushima Prefecture
+ 11          Fujii-dera (藤井寺)           Yakushi Nyorai       Yoshinogawa Tokushima Prefecture
+ 12           Shōsan-ji (焼山寺)           Kokūzō Bosatsu          Kamiyama Tokushima Prefecture
+ 13         Dainichi-ji (大日寺)         Jūichimen Kannon         Tokushima Tokushima Prefecture
+ 14           Jōraku-ji (常楽寺)           Miroku Bosatsu         Tokushima Tokushima Prefecture
+ 15    Awa Kokubun-ji (阿波国分寺)           Yakushi Nyorai         Tokushima Tokushima Prefecture
+ 16           Kannon-ji (観音寺)             Senjū Kannon         Tokushima Tokushima Prefecture
+ 17              Ido-ji (井戸寺)           Yakushi Nyorai         Tokushima Tokushima Prefecture
+ 18            Onzan-ji (恩山寺)           Yakushi Nyorai      Komatsushima Tokushima Prefecture
+ 19           Tatsue-ji (立江寺)             Jizō Bosatsu      Komatsushima Tokushima Prefecture
+ 20          Kakurin-ji (鶴林寺)             Jizō Bosatsu          Katsuura Tokushima Prefecture
+ 21            Tairyūji (太竜寺)           Kokūzō Bosatsu              Anan Tokushima Prefecture
+ 22            Byōdō-ji (平等寺)           Yakushi Nyorai              Anan Tokushima Prefecture
+ 23            Yakuō-ji (薬王寺)           Yakushi Nyorai            Minami Tokushima Prefecture
+ 24     Hotsumisaki-ji (最御崎寺)           Kokūzō Bosatsu            Muroto     Kōchi Prefecture
+ 25          Shinshō-ji (津照寺)             Jizō Bosatsu            Muroto     Kōchi Prefecture
+ 26        Kongōchō-ji (金剛頂寺)           Yakushi Nyorai            Muroto     Kōchi Prefecture
+ 27         Kōnomine-ji (神峰寺)         Jūichimen Kannon            Yasuda     Kōchi Prefecture
+ 28         Dainichi-ji (大日寺)          Dainichi Nyorai             Kōnan     Kōchi Prefecture
+ 29   Tosa Kokubun-ji (土佐国分寺)             Senjū Kannon           Nankoku     Kōchi Prefecture
+ 30           Zenrakuji (善楽寺)             Amida Nyorai             Kōchi     Kōchi Prefecture
+ 31         Chikurin-ji (竹林寺)            Monju Bosatsu             Kōchi     Kōchi Prefecture
+ 32         Zenjibu-ji (禅師峰寺)         Jūichimen Kannon           Nankoku     Kōchi Prefecture
+ 33           Sekkei-ji (雪蹊寺)           Yakushi Nyorai             Kōchi     Kōchi Prefecture
+ 34           Tanema-ji (種間寺)           Yakushi Nyorai            Haruno     Kōchi Prefecture
+ 35         Kiyotaki-ji (清滝寺)           Yakushi Nyorai              Tosa     Kōchi Prefecture
+ 36           Shōryū-ji (青竜寺)                Fudō Myōō              Tosa     Kōchi Prefecture
+ 37          Iwamoto-ji (岩本寺)             Five Buddhas          Shimanto     Kōchi Prefecture
+ 38       Kongōfuku-ji (金剛福寺)             Senjū Kannon       Tosashimizu     Kōchi Prefecture
+ 39             Enkō-ji (延光寺)           Yakushi Nyorai            Sukumo     Kōchi Prefecture
+ 40        Kanjizai-ji (観自在寺)           Yakushi Nyorai             Ainan     Ehime Prefecture
+ 41             Ryūkōji (竜光寺)         Jūichimen Kannon           Uwajima     Ehime Prefecture
+ 42        Butsumoku-ji (佛木寺)          Dainichi Nyorai           Uwajima     Ehime Prefecture
+ 43          Meiseki-ji (明石寺)             Senjū Kannon             Seiyo     Ehime Prefecture
+ 44            Daihō-ji (大宝寺)         Jūichimen Kannon         Kumakōgen     Ehime Prefecture
+ 45            Iwaya-ji (岩屋寺)                Fudō Myōō         Kumakōgen     Ehime Prefecture
+ 46          Jōruri-ji (浄瑠璃寺)           Yakushi Nyorai         Matsuyama     Ehime Prefecture
+ 47           Yasaka-ji (八坂寺)             Amida Nyorai         Matsuyama     Ehime Prefecture
+ 48           Sairin-ji (西林寺)         Jūichimen Kannon         Matsuyama     Ehime Prefecture
+ 49             Jōdo-ji (浄土寺)             Shaka Nyorai         Matsuyama     Ehime Prefecture
+ 50            Hanta-ji (繁多寺)           Yakushi Nyorai         Matsuyama     Ehime Prefecture
+ 51           Ishite-ji (石手寺)           Yakushi Nyorai         Matsuyama     Ehime Prefecture
+ 52           Taisan-ji (太山寺)         Jūichimen Kannon         Matsuyama     Ehime Prefecture
+ 53            Enmyō-ji (円明寺)             Amida Nyorai         Matsuyama     Ehime Prefecture
+ 54            Enmei-ji (延命寺)                Fudō Myōō           Imabari     Ehime Prefecture
+ 55             Nankōbō (南光坊)      Daitsū-chishō Butsu           Imabari     Ehime Prefecture
+ 56           Taisan-ji (泰山寺)             Jizō Bosatsu           Imabari     Ehime Prefecture
+ 57           Eifuku-ji (栄福寺)             Amida Nyorai           Imabari     Ehime Prefecture
+ 58            Senyū-ji (仙遊寺)             Senjū Kannon           Imabari     Ehime Prefecture
+ 59    Iyo Kokubun-ji (伊予国分寺)           Yakushi Nyorai           Imabari     Ehime Prefecture
+ 60         Yokomine-ji (横峰寺)          Dainichi Nyorai             Saijō     Ehime Prefecture
+ 61             Kōon-ji (香園寺)          Dainichi Nyorai             Saijō     Ehime Prefecture
+ 62             Hōju-ji (宝寿寺)         Jūichimen Kannon             Saijō     Ehime Prefecture
+ 63          Kichijō-ji (吉祥寺)              Bishamonten             Saijō     Ehime Prefecture
+ 64          Maegami-ji (前神寺)             Amida Nyorai             Saijō     Ehime Prefecture
+ 65          Sankaku-ji (三角寺)         Jūichimen Kannon       Shikokuchūō     Ehime Prefecture
+ 66            Unpen-ji (雲辺寺)             Senjū Kannon           Miyoshi Tokushima Prefecture
+ 67            Daikō-ji (大興寺)           Yakushi Nyorai            Mitoyo    Kagawa Prefecture
+ 68            Jinne-in (神恵院)             Amida Nyorai          Kan'onji    Kagawa Prefecture
+ 69           Kannon-ji (観音寺)               Shō Kannon          Kan'onji    Kagawa Prefecture
+ 70         Motoyama-ji (本山寺)              Batō Kannon            Mitoyo    Kagawa Prefecture
+ 71          Iyadani-ji (弥谷寺)             Senjū Kannon            Mitoyo    Kagawa Prefecture
+ 72         Mandara-ji (曼荼羅寺)          Dainichi Nyorai          Zentsūji    Kagawa Prefecture
+ 73        Shusshakaji (出釈迦寺)             Shaka Nyorai          Zentsūji    Kagawa Prefecture
+ 74           Kōyama-ji (甲山寺)           Yakushi Nyorai          Zentsūji    Kagawa Prefecture
+ 75           Zentsū-ji (善通寺)           Yakushi Nyorai          Zentsūji    Kagawa Prefecture
+ 76            Konzō-ji (金倉寺)           Yakushi Nyorai          Zentsūji    Kagawa Prefecture
+ 77            Dōryū-ji (道隆寺)           Yakushi Nyorai           Tadotsu    Kagawa Prefecture
+ 78            Gōshō-ji (郷照寺)             Amida Nyorai             Utazu    Kagawa Prefecture
+ 79            Tennō-ji (天皇寺)         Jūichimen Kannon           Sakaide    Kagawa Prefecture
+ 80 Sanuki Kokubun-ji (讃岐国分寺) Jūichimen & Senjū Kannon         Takamatsu    Kagawa Prefecture
+ 81        Shiromine-ji (白峯寺)             Senjū Kannon           Sakaide    Kagawa Prefecture
+ 82           Negoro-ji (根香寺)             Senjū Kannon         Takamatsu    Kagawa Prefecture
+ 83       Ichinomiya-ji (一宮寺)               Shō Kannon         Takamatsu    Kagawa Prefecture
+ 84          Yashima-ji (屋島寺) Jūichimen & Senjū Kannon         Takamatsu    Kagawa Prefecture
+ 85           Yakuri-ji (八栗寺)               Shō Kannon         Takamatsu    Kagawa Prefecture
+ 86            Shido-ji (志度寺)         Jūichimen Kannon            Sanuki    Kagawa Prefecture
+ 87            Nagao-ji (長尾寺)               Shō Kannon            Sanuki    Kagawa Prefecture
+ 88            Ōkubo-ji (大窪寺)           Yakushi Nyorai            Sanuki    Kagawa Prefecture
+
+Restructured Table:
+```
+No. | Temple                    | Honzon (main image)    | City/Town/Village       | Prefecture
+--- | ------------------------- | ---------------------- | ----------------------- | ---------------
+ 1  | Ryōzen-ji (霊山寺)        | Shaka Nyorai          | Naruto                  | Tokushima Prefecture
+ 2  | Gokuraku-ji (極楽寺)      | Amida Nyorai          | Naruto                  | Tokushima Prefecture
+ 3  | Konsen-ji (金泉寺)        | Shaka Nyorai          | Itano                   | Tokushima Prefecture
+ 4  | Dainichi-ji (大日寺)     | Dainichi Nyorai       | Itano                   | Tokushima Prefecture
+ 5  | Jizō-ji (地蔵寺)         | Enmei Jizō Bosatsu    | Itano                   | Tokushima Prefecture
+ 6  | Anraku-ji (安楽寺)       | Yakushi Nyorai        | Kamiita                | Tokushima Prefecture
+ 7  | Jūraku-ji (十楽寺)       | Amida Nyorai          | Awa                     | Tokushima Prefecture
+ 8  | Kumadani-ji (熊谷寺)     | Senjū Kannon          | Awa                     | Tokushima Prefecture
+ 9  | Hōrin-ji (法輪寺)        | Shaka Nyorai          | Awa                     | Tokushima Prefecture
+10  | Kirihata-ji (切幡寺)     | Senjū Kannon          | Awa                     | Tokushima Prefecture
+11  | Fujii-dera (藤井寺)       | Yakushi Nyorai        | Yoshinogawa             | Tokushima Prefecture
+12  | Shōsan-ji (焼山寺)       | Kokūzō Bosatsu        | Kamiyama                | Tokushima Prefecture
+13  | Dainichi-ji (大日寺)     | Jūichimen Kannon      | Tokushima               | Tokushima Prefecture
+14  | Jōraku-ji (常楽寺)       | Miroku Bosatsu        | Tokushima               | Tokushima Prefecture
+15  | Awa Kokubun-ji (阿波国分寺)| Yakushi Nyorai       | Tokushima               | Tokushima Prefecture
+16  | Kannon-ji (観音寺)       | Senjū Kannon          | Tokushima               | Tokushima Prefecture
+17  | Ido-ji (井戸寺)          | Yakushi Nyorai        | Tokushima               | Tokushima Prefecture
+18  | Onzan-ji (恩山寺)        | Yakushi Nyorai        | Komatsushima            | Tokushima Prefecture
+19  | Tatsue-ji (立江寺)       | Jizō Bosatsu          | Komatsushima            | Tokushima Prefecture
+20  | Kakurin-ji (鶴林寺)      | Jizō Bosatsu          | Katsuura                | Tokushima Prefecture
+21  | Tairyūji (太竜寺)        | Kokūzō Bosatsu        | Anan                    | Tokushima Prefecture
+22  | Byōdō-ji (平等寺)        | Yakushi Nyorai        | Anan                    | Tokushima Prefecture
+23  | Yakuō-ji (薬王寺)        | Yakushi Nyorai        | Minami                  | Tokushima Prefecture
+24  | Hotsumisaki-ji (最御崎寺)| Kokūzō Bosatsu        | Muroto                  | Kōchi Prefecture
+25  | Shinshō-ji (津照寺)     | Jizō Bosatsu          | Muroto                  | Kōchi Prefecture
+26  | Kongōchō-ji (金剛頂寺)   | Yakushi Nyorai        | Muroto                  | Kōchi Prefecture
+27  | Kōnomine-ji (神峰寺)     | Jūichimen Kannon      | Yasuda                  | Kōchi Prefecture
+28  | Dainichi-ji (大日寺)     | Dainichi Nyorai       | Kōnan                   | Kōchi Prefecture
+29  | Tosa Kokubun-ji (土佐国分寺)| Senjū Kannon        | Nankoku                 | Kōchi Prefecture
+30  | Zenrakuji (善楽寺)       | Amida Nyorai          | Kōchi                   | Kōchi Prefecture
+31  | Chikurin-ji (竹林寺)     | Monju Bosatsu         | Kōchi                   | Kōchi Prefecture
+32  | Zenjibu-ji (禅師峰寺)    | Jūichimen Kannon      | Nankoku                 | Kōchi Prefecture
+33  | Sekkei-ji (雪蹊寺)      | Yakushi Nyorai        | Kōchi                   | Kōchi Prefecture
+34  | Tanema-ji (種間寺)      | Yakushi Nyorai        | Haruno                  | Kōchi Prefecture
+35  | Kiyotaki-ji (清滝寺)    | Yakushi Nyorai        | Tosa                    | Kōchi Prefecture
+36  | Shōryū-ji (青竜寺)      | Fudō Myōō             | Tosa                    | Kōchi Prefecture
+37  | Iwamoto-ji (岩本寺)     | Five Buddhas          | Shimanto                | Kōchi Prefecture
+38  | Kongōfuku-ji (金剛福寺)  | Senjū Kannon          | Tosashimizu             | Kōchi Prefecture
+39  | Enkō-ji (延光寺)        | Yakushi Nyorai        | Sukumo                  | Kōchi Prefecture
+40  | Kanjizai-ji (観自在寺)   | Yakushi Nyorai        | Ainan                   | Ehime Prefecture
+41  | Ryūkōji (竜光寺)        | Jūichimen Kannon      | Uwajima                 | Ehime Prefecture
+42  | Butsumoku-ji (佛木寺)    | Dainichi Nyorai       | Uwajima                 | Ehime Prefecture
+43  | Meiseki-ji (明石寺)     | Senjū Kannon          | Seiyo                   | Ehime Prefecture
+44  | Daihō-ji (大宝寺)       | Jūichimen Kannon      | Kumakōgen               | Ehime Prefecture
+45  | Iwaya-ji (岩屋寺)       | Fudō Myōō             | Kumakōgen               | Ehime Prefecture
+46  | Jōruri-ji (浄瑠璃寺)    | Yakushi Nyorai        | Matsuyama               | Ehime Prefecture
+47  | Yasaka-ji (八坂寺)      | Amida Nyorai          | Matsuyama               | Ehime Prefecture
+48  | Sairin-ji (西林寺)      | Jūichimen Kannon      | Matsuyama               | Ehime Prefecture
+49  | Jōdo-ji (浄土寺)        | Shaka Nyorai          | Matsuyama               | Ehime Prefecture
+50  | Hanta-ji (繁多寺)       | Yakushi Nyorai        | Matsuyama               | Ehime Prefecture
+51  | Ishite-ji (石手寺)      | Yakushi Nyorai        | Matsuyama               | Ehime Prefecture
+52  | Taisan-ji (太山寺)      | Jūichimen Kannon      | Matsuyama               | Ehime Prefecture
+53  | Enmyō-ji (円明寺)       | Amida Nyorai          | Matsuyama               | Ehime Prefecture
+54  | Enmei-ji (延命寺)       | Fudō Myōō             | Imabari                 | Ehime Prefecture
+55  | Nankōbō (南光坊)        | Daitsū-chishō Butsu   | Imabari                 | Ehime Prefecture
+56  | Taisan-ji (泰山寺)      | Jizō Bosatsu          | Imabari                 | Ehime Prefecture
+57  | Eifuku-ji (栄福寺)      | Amida Nyorai          | Imabari                 | Ehime Prefecture
+58  | Senyū-ji (仙遊寺)       | Senjū Kannon          | Imabari                 | Ehime Prefecture
+59  | Iyo Kokubun-ji (伊予国分寺)| Yakushi Nyorai      | Imabari                 | Ehime Prefecture
+60  | Yokomine-ji (横峰寺)     | Dainichi Nyorai       | Saijō                   | Ehime Prefecture
+61  | Kōon-ji (香園寺)        | Dainichi Nyorai       | Saijō                   | Ehime Prefecture
+62  | Hōju-ji (宝寿寺)        | Jūichimen Kannon      | Saijō                   | Ehime Prefecture
+63  | Kichijō-ji (吉祥寺)     | Bishamonten           | Saijō                   | Ehime Prefecture
+64  | Maegami-ji (前神寺)      | Amida Nyorai          | Saijō                   | Ehime Prefecture
+65  | Sankaku-ji (三角寺)     | Jūichimen Kannon      | Shikokuchūō            | Ehime Prefecture
+66  | Unpen-ji (雲辺寺)       | Senjū Kannon          | Miyoshi                 | Tokushima Prefecture
+67  | Daikō-ji (大興寺)       | Yakushi Nyorai        | Mitoyo                  | Kagawa Prefecture
+68  | Jinne-in (神恵院)       | Amida Nyorai          | Kan'onji                | Kagawa Prefecture
+69  | Kannon-ji (観音寺)      | Shō Kannon            | Kan'onji                | Kagawa Prefecture
+70  | Motoyama-ji (本山寺)    | Batō Kannon           | Mitoyo                  | Kagawa Prefecture
+71  | Iyadani-ji (弥谷寺)     | Senjū Kannon          | Mitoyo                  | Kagawa Prefecture
+72  | Mandara-ji (曼荼羅寺)   | Dainichi Nyorai       | Zentsūji                | Kagawa Prefecture
+73  | Shusshakaji (出釈迦寺)  | Shaka Nyorai          | Zentsūji                | Kagawa Prefecture
+74  | Kōyama-ji (甲山寺)      | Yakushi Nyorai        | Zentsūji                | Kagawa Prefecture
+75  | Zentsū-ji (善通寺)      | Yakushi Nyorai        | Zentsūji                | Kagawa Prefecture
+76  | Konzō-ji (金倉寺)       | Yakushi Nyorai        | Zentsūji                | Kagawa Prefecture
+77  | Dōryū-ji (道隆寺)       | Yakushi Nyorai        | Tadotsu                 | Kagawa Prefecture
+78  | Gōshō-ji (郷照寺)      | Amida Nyorai          | Utazu                   | Kagawa Prefecture
+79  | Tennō-ji (天皇寺)       | Jūichimen Kannon      | Sakaide                 | Kagawa Prefecture
+80  | Sanuki Kokubun-ji (讃岐国分寺)| Jūichimen & Senjū Kannon | Takamatsu         | Kagawa Prefecture
+81  | Shiromine-ji (白峯寺)   | Senjū Kannon          | Sakaide                 | Kagawa Prefecture
+82  | Negoro-ji (根香寺)      | Senjū Kannon          | Takamatsu               | Kagawa Prefecture
+83  | Ichinomiya-ji (一宮寺)  | Shō Kannon            | Takamatsu               | Kagawa Prefecture
+84  | Yashima-ji (屋島寺)     | Jūichimen & Senjū Kannon | Takamatsu           | Kagawa Prefecture
+85  | Yakuri-ji (八栗寺)      | Shō Kannon            | Takamatsu               | Kagawa Prefecture
+86  | Shido-ji (志度寺)       | Jūichimen Kannon      | Sanuki                  | Kagawa Prefecture
+87  | Nagao-ji (長尾寺)       | Shō Kannon            | Sanuki                  | Kagawa Prefecture
+88  | Ōkubo-ji (大窪寺)       | Yakushi Nyorai        | Sanuki                  | Kagawa Prefecture
+```
+
+
+--- Table 9 ---
+Original Table:
+School Year          Class A                   Class AA         Class AAA           Class AAAA                      Class AAAAA
+    1994-95           Menard                Van Alstyne       Cameron Yoe        Wichita Falls                          Weslaco
+    1995-96              Era                    Coahoma     Colorado City           Livingston                      Duncanville
+    1996-97    Sulphur Bluff                     Marion     Colorado City               Snyder                      Duncanville
+    1997-98        Westbrook                   Edgewood          Perryton San Angelo Lake View              Flower Mound Marcus
+    1998-99          Graford                    Lindsay  Hamshire-Fannett            Brownwood                          Weslaco
+  1999-2000      Garden City                      Keene          Giddings          Friendswood College Station A&M Consolidated
+    2000-01          Granger                   Edgewood Midland Greenwood          Friendswood College Station A&M Consolidated
+    2001-02        Lazbuddie                   Edgewood          Giddings          Friendswood                   Pasadena Dobie
+    2002-03      Rocksprings               Rosebud-Lott          Pearsall      Harlingen South                San Antonio Clark
+    2003-04        Lazbuddie                       Wall  Hamshire-Fannett          Friendswood                            Klein
+    2004-05             Loop Mount Pleasant Chapel Hill             Llano              Sherman College Station A&M Consolidated
+    2005-06       Wellington                Centerville  Hamshire-Fannett            Brownwood                   Abilene Cooper
+    2006-07 Springlake-Earth                   Crawford         Princeton          Friendswood College Station A&M Consolidated
+    2007-08 Springlake-Earth                  Grandview  Hamshire-Fannett              Sherman                Mission Sharyland
+    2008-09      Garden City                Shelbyville    Lubbock-Cooper          Friendswood                  Humble Kingwood
+
+Restructured Table:
+```
+School Year    | Class A               | Class AA            | Class AAA            | Class AAAA                               | Class AAAAA
+1994-95        | Menard                | Van Alstyne        | Cameron Yoe         | Wichita Falls                            | Weslaco
+1995-96        | Era                   | Coahoma            | Colorado City       | Livingston                               | Duncanville
+1996-97        | Sulphur Bluff         | Marion             | Colorado City       | Snyder                                   | Duncanville
+1997-98        | Westbrook             | Edgewood           | Perryton            | San Angelo Lake View                     | Flower Mound Marcus
+1998-99        | Graford               | Lindsay            | Hamshire-Fannett    | Brownwood                                | Weslaco
+1999-2000      | Garden City           | Keene              | Giddings           | Friendswood                              | College Station A&M Consolidated
+2000-01        | Granger               | Edgewood           | Midland Greenwood    | Friendswood                              | College Station A&M Consolidated
+2001-02        | Lazbuddie             | Edgewood           | Giddings            | Friendswood                              | Pasadena Dobie
+2002-03        | Rocksprings           | Rosebud-Lott       | Pearsall            | Harlingen South                          | San Antonio Clark
+2003-04        | Lazbuddie             | Wall               | Hamshire-Fannett    | Friendswood                              | Klein
+2004-05        | Loop                  | Mount Pleasant      | Chapel Hill         | Llano                                    | Sherman College Station A&M Consolidated
+2005-06        | Wellington            | Centerville        | Hamshire-Fannett    | Brownwood                                | Abilene Cooper
+2006-07        | Springlake-Earth      | Crawford           | Princeton           | Friendswood                              | College Station A&M Consolidated
+2007-08        | Springlake-Earth      | Grandview          | Hamshire-Fannett    | Sherman                                  | Mission Sharyland
+2008-09        | Garden City           | Shelbyville        | Lubbock-Cooper      | Friendswood                              | Humble Kingwood
+```
+
+
+--- Table 10 ---
+Original Table:
+Week    Date                     Opponent Score Result Record
+   1  July 9 vs. Saskatchewan Roughriders 31–21    Win    1–0
+   2 July 16        at Montreal Concordes  36–0    Win    2–0
+   3 July 24      vs. Hamilton Tiger-Cats 36–25   Loss    2–1
+   4   Aug 1          at Edmonton Eskimos 32–26    Win    3–1
+   5   Aug 8                 vs. BC Lions 29–16    Win    4–1
+   6  Aug 20        at Calgary Stampeders  35–4    Win    5–1
+   7  Aug 28      vs. Ottawa Rough Riders 27–20    Win    6–1
+   8  Sept 5  at Saskatchewan Roughriders 36–35    Win    7–1
+   9 Sept 11       vs. Calgary Stampeders 15–11   Loss    7–2
+  10 Sept 18       at Ottawa Rough Riders 38–28   Loss    7–3
+  11 Sept 25       vs. Montreal Concordes 19–16    Win    8–3
+  12   Oct 2                  at BC Lions 29–19    Win    9–3
+  13  Oct 11        vs. Toronto Argonauts 39–35    Win   10–3
+  14  Oct 17         at Toronto Argonauts 29–16    Win   11–3
+  15  Oct 23         vs. Edmonton Eskimos 33–17   Loss   11–4
+  16   Nov 7       at Hamilton Tiger-Cats 24–21   Loss   11–5
+
+Restructured Table:
+```
+Week | Date    | Opponent                     | Score  | Result | Record
+1    | July 9 | vs. Saskatchewan Roughriders | 31–21  | Win    | 1–0
+2    | July 16| at Montreal Concordes        | 36–0   | Win    | 2–0
+3    | July 24| vs. Hamilton Tiger-Cats      | 36–25  | Loss   | 2–1
+4    | Aug 1  | at Edmonton Eskimos          | 32–26  | Win    | 3–1
+5    | Aug 8  | vs. BC Lions                 | 29–16  | Win    | 4–1
+6    | Aug 20 | at Calgary Stampeders        | 35–4   | Win    | 5–1
+7    | Aug 28 | vs. Ottawa Rough Riders      | 27–20  | Win    | 6–1
+8    | Sept 5 | at Saskatchewan Roughriders  | 36–35  | Win    | 7–1
+9    | Sept 11| vs. Calgary Stampeders       | 15–11  | Loss   | 7–2
+10   | Sept 18| at Ottawa Rough Riders       | 38–28  | Loss   | 7–3
+11   | Sept 25| vs. Montreal Concordes       | 19–16  | Win    | 8–3
+12   | Oct 2  | at BC Lions                  | 29–19  | Win    | 9–3
+13   | Oct 11 | vs. Toronto Argonauts        | 39–35  | Win    | 10–3
+14   | Oct 17 | at Toronto Argonauts         | 29–16  | Win    | 11–3
+15   | Oct 23 | vs. Edmonton Eskimos         | 33–17  | Loss   | 11–4
+16   | Nov 7  | at Hamilton Tiger-Cats       | 24–21  | Loss   | 11–5
+```
+
